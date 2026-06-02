@@ -27,7 +27,7 @@ pipeline:
             type: KubernetesDirect
             spec:
               connectorRef: martyn_build_farm_connector
-              namespace: harness-delegates-ng
+              namespace: harness-delegate-ng
               automountServiceAccountToken: true
               nodeSelector: {}
               os: Linux
